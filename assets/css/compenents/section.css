@@ -1,0 +1,15 @@
+.section-pad {
+  padding-block: 120px !important;
+}
+
+/* Background with shadow  */
+.section-bg {
+  position: relative;
+}
+.section-bg .bg-ellipse {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  max-width: 100%;
+  opacity: 0.6;
+}
